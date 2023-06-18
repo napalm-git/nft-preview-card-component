@@ -68,4 +68,13 @@ body {
       color: $color-secondary;
     }
   }
+
+  & .author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 1.3rem;
+    font-weight: $fw-regular;
+  }
 }

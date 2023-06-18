@@ -60,4 +60,12 @@ body {
 }
 .wrapper .etherium .eth {
   color: hsl(178, 100%, 50%);
+}
+.wrapper .author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 1.3rem;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */

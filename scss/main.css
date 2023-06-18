@@ -29,4 +29,11 @@ body {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
   font-size: 1.4rem;
+}
+.wrapper .text {
+  font-size: "Outfit", sans-serif;
+  text-align: start;
+  margin-bottom: 1.3rem;
+  font-weight: 400;
+  font-size: 1.125rem;
 }/*# sourceMappingURL=main.css.map */

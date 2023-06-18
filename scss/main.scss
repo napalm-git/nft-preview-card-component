@@ -32,4 +32,12 @@ body {
     font-weight: $fw-bold;
     font-size: 1.4rem;
   }
+
+  & .text {
+    font-size: $ff-primary;
+    text-align: start;
+    margin-bottom: 1.3rem;
+    font-weight: $fw-regular;
+    font-size: 1.125rem;
+  }
 }

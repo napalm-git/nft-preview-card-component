@@ -22,6 +22,13 @@ body {
   color: hsl(216, 21%, 55%);
   border-radius: 15px;
 }
+.wrapper .main-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 55%;
+  width: 100%;
+  border-radius: 7px;
+}
 .wrapper .header {
   text-align: start;
   margin-top: 1.3rem;

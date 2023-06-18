@@ -101,3 +101,16 @@ body {
     background-color: hsl(215, 32%, 27%);
   }
 }
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  .wrapper {
+    width: 85%;
+    padding: 1.25rem;
+  }
+}

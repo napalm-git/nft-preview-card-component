@@ -76,5 +76,12 @@ body {
     gap: 10px;
     margin-top: 1.3rem;
     font-weight: $fw-regular;
+
+    & img {
+      height: 32px;
+      width: 32px;
+      border: 1px solid $color-white;
+      border-radius: 50%;
+    }
   }
 }

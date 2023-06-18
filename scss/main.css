@@ -13,4 +13,12 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(217, 54%, 11%);
   font-size: 1rem;
+}
+
+.wrapper {
+  background-color: hsl(216, 50%, 16%);
+  width: 334px;
+  padding: 1.5625rem;
+  color: hsl(216, 21%, 55%);
+  border-radius: 15px;
 }/*# sourceMappingURL=main.css.map */

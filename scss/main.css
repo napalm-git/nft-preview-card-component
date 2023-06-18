@@ -49,4 +49,15 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 1.3rem;
+}
+.wrapper .etherium .eth, .wrapper .etherium .time-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.wrapper .etherium .eth {
+  color: hsl(178, 100%, 50%);
 }/*# sourceMappingURL=main.css.map */

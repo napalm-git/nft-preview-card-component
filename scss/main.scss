@@ -53,5 +53,19 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1.3rem;
+
+    & .eth,
+    & .time-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-weight: $fw-bold;
+      font-size: 1rem;
+    }
+
+    & .eth {
+      color: $color-secondary;
+    }
   }
 }

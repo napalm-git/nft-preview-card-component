@@ -47,4 +47,11 @@ body {
     font-weight: $fw-regular;
     font-size: 1.125rem;
   }
+
+  & .etherium {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.3rem;
+  }
 }

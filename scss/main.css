@@ -43,4 +43,10 @@ body {
   margin-bottom: 1.3rem;
   font-weight: 400;
   font-size: 1.125rem;
+}
+.wrapper .etherium {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
 }/*# sourceMappingURL=main.css.map */

@@ -94,4 +94,10 @@ body {
       font-weight: $fw-light;
     }
   }
+
+  & .line {
+    width: 100%;
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+  }
 }

@@ -1,3 +1,3 @@
-# Ntf Preview Card Component
+# Nft Preview Card Component
 
 Simple card component created using Flexbox and SCSS

@@ -23,4 +23,13 @@ body {
   padding: 1.5625rem;
   color: $color-text;
   border-radius: 15px;
+
+  & .header {
+    text-align: start;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    color: $color-white;
+    font-weight: $fw-bold;
+    font-size: 1.4rem;
+  }
 }

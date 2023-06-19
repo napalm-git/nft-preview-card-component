@@ -23,6 +23,29 @@ body {
   border-radius: 15px;
   box-shadow: 0px 20px 20px 25px rgb(12, 23, 41), 0px 20px 20px 70px rgba(12, 23, 41, 0.5);
 }
+.wrapper .image-container {
+  position: relative;
+  display: inline-block;
+}
+.wrapper .image-container .overlay {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.wrapper .image-container:hover {
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 7px;
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+.wrapper .image-container:hover .overlay {
+  opacity: 1;
+}
+.wrapper .image-container:hover .main-image {
+  opacity: 0.5;
+}
 .wrapper .main-image {
   -o-object-fit: cover;
      object-fit: cover;
@@ -37,6 +60,10 @@ body {
   color: hsl(0, 0%, 100%);
   font-weight: 600;
   font-size: 1.4rem;
+}
+.wrapper .header:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 .wrapper .text {
   font-size: "Outfit", sans-serif;
@@ -83,6 +110,9 @@ body {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
   font-weight: 300;
+}
+.wrapper .author a:hover {
+  color: hsl(178, 100%, 50%);
 }
 .wrapper .line {
   width: 100%;

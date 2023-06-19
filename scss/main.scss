@@ -26,6 +26,34 @@ body {
   box-shadow: 0px 20px 20px 25px rgb(12, 23, 41),
     0px 20px 20px 70px rgba(12, 23, 41, 0.5);
 
+  & .image-container {
+    position: relative;
+    display: inline-block;
+
+    & .overlay {
+      position: absolute;
+      top: 40%;
+      left: 42%;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    &:hover {
+      background-color: $color-secondary;
+      border-radius: 7px;
+      transition: opacity 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    &:hover .overlay {
+      opacity: 1;
+    }
+
+    &:hover .main-image {
+      opacity: 0.5;
+    }
+  }
+
   & .main-image {
     object-fit: cover;
     height: 55%;
@@ -40,6 +68,11 @@ body {
     color: $color-white;
     font-weight: $fw-bold;
     font-size: 1.4rem;
+
+    &:hover {
+      color: $color-secondary;
+      cursor: pointer;
+    }
   }
 
   & .text {
@@ -94,6 +127,10 @@ body {
       color: $color-white;
       text-decoration: none;
       font-weight: $fw-light;
+
+      &:hover {
+        color: $color-secondary;
+      }
     }
   }
 
